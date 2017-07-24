@@ -1,0 +1,165 @@
+/* Global CSS */
+
+body {
+	font-family: Helvetica, Sans-Serif;
+	font-size: 16px;
+	background-color: black;
+	text-align: center;
+	margin: 0;
+	color: white;
+}
+
+.main {
+	padding-top: 69px;
+	opacity: 0.9;
+	width: 1200px;
+	margin: auto;
+}
+
+.flex-container {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div {
+	display: block;
+}
+
+
+
+
+
+/* Header Bar */
+
+header {
+	height: 69px;
+	z-index: 1;
+	position: fixed;
+	margin: auto;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	background-color: black;
+	align-items: center;
+
+}
+
+header img {
+	height: 50px;
+	margin-left: 10px;
+}
+
+nav {
+	text-align: right;
+	flex-grow: 1;
+}
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+
+}
+
+
+nav a {
+	color: seashell;
+}
+
+
+/* Section 1 - Title Image */
+
+#title-image {
+	height: 600px;
+	width: 1200px;
+	margin: auto;
+	background-image: url(../../resources/images/ribblehead-viaduct-compressor.jpg);
+	padding-top: 70px;
+}
+
+#tag-line {
+	/* background-color: black; */
+	color: black;
+	margin: auto;
+	/*width: 1200px;*/
+	font-size: 2em;
+}
+
+/* Section 2 - Why & Picture */
+
+#why-pic {
+	display: flex;
+	overflow: hidden;
+	flex-wrap: nowrap;
+}
+
+#left-box {
+	background-color: white;
+	width: 50%;
+	color: black;
+	align-items: center;
+}
+
+
+#div-text {
+	color: black;
+	font-size: 1em;
+	
+}
+
+/* 
+
+#left-box h2 {
+	align-content: center;
+}
+
+*/
+
+
+
+#right-box {
+	/* background-image: url(../../resources/images/whitby-abbey-compressor.jpg); */
+	width: 50%;
+	max-height: 400px;
+	display: hidden;
+}
+
+
+
+#right-box img {
+	max-width: 100%;
+	max-height: 400px;
+	display: block;
+}
+
+
+/* Section 3 - Places */
+
+#places {
+	display: flex;
+	height: 300px;
+	width: 1200px;
+
+}
+
+.places-img {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-direction: column;
+	margin: auto;
+
+}
+
+.places-img img {
+	max-height: 150px;
+	max-width: 150px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+
+
+/* Section 4 - Benefits */
+
+
+/* Section 5 - Footer */
